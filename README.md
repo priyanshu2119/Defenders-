@@ -1,6 +1,6 @@
 # Solvify - Smart Solutions
 
-Your all-in-one solution for smart tools. Solvify is a modern, single-page web application built with Vite, offering a collection of powerful tools to simplify complex tasks and boost productivity.
+Your all-in-one solution for smart tools. Solvify is a modern, single-page web application built with vanilla HTML, CSS, and JavaScript, and powered by Vite for a fast and efficient development experience.
 
 ## Live Demo
 
@@ -17,7 +17,7 @@ Your all-in-one solution for smart tools. Solvify is a modern, single-page web a
   - Mood Tracker
 - **User Authentication**: Simple and intuitive login and signup functionality.
 - **Responsive Design**: Fully responsive layout that works on all devices.
-- **Modern Tech Stack**: Built with HTML, CSS, and vanilla JavaScript, using Vite for a fast and efficient development experience.
+- **Modern Tech Stack**: Built with standard HTML, CSS, and vanilla JavaScript. It uses Vite as a build tool for a better development experience.
 
 ## Tools Overview
 
@@ -38,7 +38,7 @@ A tool to help you track your mood and access meditation techniques for relaxati
 
 ## Technologies Used
 
-- **Frontend**: HTML, CSS, JavaScript
+- **Frontend**: HTML, CSS, JavaScript (Vanilla)
 - **Build Tool**: [Vite](https://vitejs.dev/)
 - **Icons**: [Font Awesome](https://fontawesome.com/)
 - **Fonts**: [Google Fonts](https://fonts.google.com/) (Poppins and Montserrat)
@@ -49,7 +49,7 @@ To get a local copy up and running, follow these simple steps.
 
 ### Prerequisites
 
-You need to have [Node.js](https://nodejs.org/) and [npm](https://www.npmjs.com/) installed on your machine.
+This project uses [Vite](https://vitejs.dev/) as a development server and build tool. Therefore, you need to have [Node.js](https://nodejs.org/) and [npm](https://www.npmjs.com/) installed on your machine to run the provided scripts.
 
 ### Installation
 
@@ -65,6 +65,7 @@ You need to have [Node.js](https://nodejs.org/) and [npm](https://www.npmjs.com/
    ```sh
    npm install
    ```
+   This command installs the development dependencies, like Vite.
 
 ### Running the Application
 
@@ -72,13 +73,13 @@ You need to have [Node.js](https://nodejs.org/) and [npm](https://www.npmjs.com/
   ```sh
   npm run dev
   ```
-  This will start the Vite development server, typically on `http://localhost:5173`.
+  This will start the Vite development server, typically on `http://localhost:5173`, with hot-reloading enabled.
 
 - **Production build**
   ```sh
   npm run build
   ```
-  This command builds the application for production to the `dist` folder.
+  This command bundles the application for production into the `dist` folder.
 
 - **Preview production build**
   ```sh
